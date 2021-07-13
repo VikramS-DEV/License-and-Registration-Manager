@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RegistrationManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/RegistrationManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RegistrationManager.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "RegistrationManager/1.0.0": {
+      "type": "project",
+      "path": "../../RegistrationManager/RegistrationManager/RegistrationManager.csproj",
+      "msbuildProject": "../../RegistrationManager/RegistrationManager/RegistrationManager.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "RegistrationManager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vikram\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\FYMSC\\project\\Project Code\\License Manager & Registration\\Working\\DemoApp\\DemoApp\\DemoApp.csproj",
+      "projectName": "DemoApp",
+      "projectPath": "E:\\FYMSC\\project\\Project Code\\License Manager & Registration\\Working\\DemoApp\\DemoApp\\DemoApp.csproj",
+      "packagesPath": "C:\\Users\\Vikram\\.nuget\\packages\\",
+      "outputPath": "E:\\FYMSC\\project\\Project Code\\License Manager & Registration\\Working\\DemoApp\\DemoApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Vikram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "E:\\FYMSC\\project\\Project Code\\License Manager & Registration\\Working\\RegistrationManager\\RegistrationManager\\RegistrationManager.csproj": {
+              "projectPath": "E:\\FYMSC\\project\\Project Code\\License Manager & Registration\\Working\\RegistrationManager\\RegistrationManager\\RegistrationManager.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

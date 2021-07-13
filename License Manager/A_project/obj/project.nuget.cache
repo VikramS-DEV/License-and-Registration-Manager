@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "leJn57K9H/kHk2OZIABst3RTZ1Vy7gvtivioLkhu7hLUWYjuVhnzvcJ3H52zjLmSaN+caITmw0W2dn4tdDG9QA==",
+  "success": true,
+  "projectFilePath": "E:\\FYMSC\\project\\Project Code\\License Manager & Registration\\Working\\License Manager\\A_project\\License Manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vikram\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vikram\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vikram\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vikram\\.nuget\\packages\\system.management\\5.0.0\\system.management.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vikram\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vikram\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

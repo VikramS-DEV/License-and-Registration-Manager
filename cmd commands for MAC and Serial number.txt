@@ -1,0 +1,7 @@
+Hardware Serail number
+wmic diskdrive get Name, Manufacturer, Model, InterfaceType, MediaType, SerialNumber
+
+
+MAC address
+
+ipconfig /all

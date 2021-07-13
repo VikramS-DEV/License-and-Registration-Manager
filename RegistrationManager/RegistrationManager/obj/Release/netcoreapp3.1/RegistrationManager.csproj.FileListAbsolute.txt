@@ -1,0 +1,16 @@
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\bin\Release\netcoreapp3.1\RegistrationManager.exe
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\bin\Release\netcoreapp3.1\RegistrationManager.deps.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\bin\Release\netcoreapp3.1\RegistrationManager.runtimeconfig.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\bin\Release\netcoreapp3.1\RegistrationManager.runtimeconfig.dev.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\bin\Release\netcoreapp3.1\RegistrationManager.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\bin\Release\netcoreapp3.1\RegistrationManager.pdb
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.csprojAssemblyReference.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.RgistrationManager.resources
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.Properties.Resources.resources
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.csproj.GenerateResource.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.AssemblyInfoInputs.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.AssemblyInfo.cs
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.csproj.CoreCompileInputs.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.pdb
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\RegistrationManager\RegistrationManager\obj\Release\netcoreapp3.1\RegistrationManager.genruntimeconfig.cache

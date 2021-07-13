@@ -1,0 +1,27 @@
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\License Manager.exe
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\License Manager.deps.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\License Manager.runtimeconfig.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\License Manager.runtimeconfig.dev.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\License Manager.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\License Manager.pdb
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\Microsoft.Win32.Registry.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\System.CodeDom.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\System.Management.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.csprojAssemblyReference.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License_Manager.LicenseMgm.resources
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License_Manager.Properties.Resources.resources
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.csproj.GenerateResource.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.AssemblyInfoInputs.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.AssemblyInfo.cs
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.csproj.CoreCompileInputs.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.csproj.CopyComplete
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.pdb
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\License Manager\A_project\obj\Release\netcoreapp3.1\License Manager.genruntimeconfig.cache

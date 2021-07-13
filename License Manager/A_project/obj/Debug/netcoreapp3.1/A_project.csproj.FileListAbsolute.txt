@@ -1,0 +1,30 @@
+D:\A_project\A_project\bin\Debug\netcoreapp3.1\A_project.exe
+D:\A_project\A_project\bin\Debug\netcoreapp3.1\A_project.deps.json
+D:\A_project\A_project\bin\Debug\netcoreapp3.1\A_project.runtimeconfig.json
+D:\A_project\A_project\bin\Debug\netcoreapp3.1\A_project.runtimeconfig.dev.json
+D:\A_project\A_project\bin\Debug\netcoreapp3.1\A_project.dll
+D:\A_project\A_project\bin\Debug\netcoreapp3.1\A_project.pdb
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.csproj.AssemblyReference.cache
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.Form1.resources
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.csproj.GenerateResource.cache
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.AssemblyInfoInputs.cache
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.AssemblyInfo.cs
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.csproj.CoreCompileInputs.cache
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.dll
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.pdb
+D:\A_project\A_project\obj\Debug\netcoreapp3.1\A_project.genruntimeconfig.cache
+E:\FYMSC\project\License Manager\A_project\bin\Debug\netcoreapp3.1\A_project.exe
+E:\FYMSC\project\License Manager\A_project\bin\Debug\netcoreapp3.1\A_project.deps.json
+E:\FYMSC\project\License Manager\A_project\bin\Debug\netcoreapp3.1\A_project.runtimeconfig.json
+E:\FYMSC\project\License Manager\A_project\bin\Debug\netcoreapp3.1\A_project.runtimeconfig.dev.json
+E:\FYMSC\project\License Manager\A_project\bin\Debug\netcoreapp3.1\A_project.dll
+E:\FYMSC\project\License Manager\A_project\bin\Debug\netcoreapp3.1\A_project.pdb
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.csprojAssemblyReference.cache
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.Form1.resources
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.csproj.GenerateResource.cache
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.AssemblyInfoInputs.cache
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.AssemblyInfo.cs
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.csproj.CoreCompileInputs.cache
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.dll
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.pdb
+E:\FYMSC\project\License Manager\A_project\obj\Debug\netcoreapp3.1\A_project.genruntimeconfig.cache
