@@ -1,0 +1,15 @@
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\x64\Debug\netcoreapp3.1\DemoApp.exe
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\x64\Debug\netcoreapp3.1\DemoApp.deps.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\x64\Debug\netcoreapp3.1\DemoApp.runtimeconfig.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\x64\Debug\netcoreapp3.1\DemoApp.runtimeconfig.dev.json
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\x64\Debug\netcoreapp3.1\DemoApp.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\x64\Debug\netcoreapp3.1\DemoApp.pdb
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.csprojAssemblyReference.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.Form1.resources
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.csproj.GenerateResource.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.AssemblyInfoInputs.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.AssemblyInfo.cs
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.csproj.CoreCompileInputs.cache
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.dll
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.pdb
+E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\x64\Debug\netcoreapp3.1\DemoApp.genruntimeconfig.cache

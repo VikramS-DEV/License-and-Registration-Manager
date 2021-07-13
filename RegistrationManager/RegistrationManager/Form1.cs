@@ -105,16 +105,15 @@ namespace RegistrationManager
                 int counter = 0;
                 string line;
 
-                // Read the file and display it line by line.  
+                // Read the file to get product name 
                 System.IO.StreamReader file =
                     new System.IO.StreamReader(RegistrationKey.Text);
 
-                //READ THE REGISTRATION FILE AND GET SERIAL NUMBER
                 while ((line = file.ReadLine()) != null)
                 {
                     if (counter == 10)
                     {
-                        ProductName.Text = line.Replace("Product Name: ", "");
+                        ProductName.Text = line.Replace("Product Name: ", "");  //Display Product name to Product name Textbox
                     }
                     counter++;
                 }
@@ -123,10 +122,11 @@ namespace RegistrationManager
             }
         }
 
+        //WRITE DATA TO EXCEL DATABASE
         void WritetoExcel()
         {
-            string path = Application.StartupPath + "Database\\test" + ".xls";
-            string[] data = new String[13]; 
+            string path = Application.StartupPath + "Database\\License_Details.xlsx";
+            string[] data = new String[15]; 
             string line = "";
             int count = 1;
 
@@ -134,141 +134,57 @@ namespace RegistrationManager
             {
                 System.IO.StreamReader file = new System.IO.StreamReader(RegistrationKey.Text);
 
-                //READ THE REGISTRATION FILE AND GET SERIAL NUMBER
+                //READ THE REGISTRATION FILE AND GET ALL DETAILS
                 while ((line = file.ReadLine()) != null)
                 {
                     if (count == 1)
-                        data[0] = line.Replace("Company Name: ", "") + ",";
+                        data[0] = line.Replace("Company Name: ", "");
                     if (count == 2)
-                        data[1] = line.Replace("Contact Name: ", "") + ",";
+                        data[1] = line.Replace("Contact Name: ", "");
                     if (count == 3)
-                        data[2] = line.Replace("Email ID: ", "") + ",";
+                        data[2] = line.Replace("Email ID: ", "");
                     if (count == 4)
-                        data[3] = line.Replace("Phone number: ", "") + ",";
+                        data[3] = line.Replace("Phone number: ", "");
                     if (count == 5)
-                        data[4] = line.Replace("Address: ", "") + ",";
+                        data[4] = line.Replace("Address: ", "");
                     if (count == 6)
-                        data[5] = line.Replace("City: ", "") + ",";
+                        data[5] = line.Replace("City: ", "");
                     if (count == 7)
-                        data[6] = line.Replace("State: ", "") + ",";
+                        data[6] = line.Replace("State: ", "");
                     if (count == 8)
-                        data[7] = line.Replace("Zip Code: ", "") + ",";
+                        data[7] = line.Replace("Zip Code: ", "");
                     if (count == 9)
-                        data[8] = line.Replace("Country: ", "") + ",";
+                        data[8] = line.Replace("Country: ", "");
                     if (count == 10)
-                        data[9] = line.Replace("Number of Users: ", "") + ",";
+                        data[9] = line.Replace("Number of Users: ", "");
                     if (count == 11)
-                        data[10] = line.Replace("Product Name: ", "") + ",";
+                        data[10] = line.Replace("Product Name: ", "");
                     if (count == 12)
-                        data[11] = line.Replace("User Serial Number: ", "") + ",";
+                        data[11] = line.Replace("User Serial Number: ", "");
+                    if (count == 13)
+                        data[12] = line.Replace("Date: ", "");
 
                     count++;
                 }
-
+                data[13] = Numbertext.Text;
                 file.Close();
 
+                //INSRT DATA INTO EXCEL
                 String filename = path;
-                String connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=\"Excel 12.0 Xml;HDR=YES;IMEX=1;\"";
-                String Command = "insert into [Sheet1$](Name,age) values('22','24')";
+                String connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=\"Excel 12.0 Xml;ReadOnly=False;HDR=YES;\"";
+                String Command = "insert into [Sheet1$](Company_Name,Contact_Name,Email_ID,Phone_Number,Address,City,State,Zip_Code,Country,Number_of_Users,Product_Name,User_Serial_Number,Install_Date,Validity_Days) values('" + data[0] + "','" + data[1] + "','" + data[2] + "','" + data[3] + "','" + data[4] + "','" + data[5] + "','" + data[6] + "','" + data[7] + "','" + data[8] + "','" + data[9] + "','" + data[10] + "','" + data[11] + "','" + data[12] + "','" + data[13] +"')";
                 OleDbConnection con = new OleDbConnection(connection);
                 con.Open();
                 OleDbCommand cmd = new OleDbCommand(Command, con);
                 cmd.ExecuteNonQuery();
+                con.Close();
 
             }
             else
                 MessageBox.Show("Database file doesnt exist");
         }
 
-        /*  void WritetoExcel(string EncrptedID)
-          {
-              string path = Application.StartupPath + "\\Database\\License_Details" + ".csv";
-              string data = "",line="";
-              int count = 1;
-
-              if (File.Exists(path))
-              {
-                  System.IO.StreamReader file = new System.IO.StreamReader(RegistrationKey.Text);
-
-                  //READ THE REGISTRATION FILE AND GET SERIAL NUMBER
-                  while ((line = file.ReadLine()) != null)
-                  {
-                      if (count == 1)
-                          data += line.Replace("Company Name: ", "")+",";
-                      if(count == 2)
-                          data += line.Replace("Contact Name: ", "") + ",";
-                      if (count == 3)
-                          data += line.Replace("Email ID: ", "") + ",";
-                      if (count == 4)
-                          data += line.Replace("Phone number: ", "") + ",";
-                      if (count == 5)
-                          data += line.Replace("Address: ", "") + ",";
-                      if (count == 6)
-                          data += line.Replace("City: ", "") + ",";
-                      if (count == 7)
-                          data += line.Replace("State: ", "") + ",";
-                      if (count == 8)
-                          data += line.Replace("Zip Code: ", "") + ",";
-                      if (count == 9)
-                          data += line.Replace("Country: ", "") + ",";
-                      if (count == 10)
-                          data += line.Replace("Number of Users: ", "") + ",";
-                      if (count == 11)
-                          data += line.Replace("Product Name: ", "") + ",";
-                      if (count == 12)
-                          data += line.Replace("User Serial Number: ", "") + ",";
-
-                      count++;
-                  }
-
-                  file.Close();
-
-                  File.AppendAllText(path, data + "\n");
-
-              }
-              else
-              {
-                  File.WriteAllText(path, "Company Name,Contact Name,Email ID,Phone Number,Address,City,State,Zip Code,Country,Number of Users,Product Name,User Serial Number\n");
-
-                  System.IO.StreamReader file = new System.IO.StreamReader(RegistrationKey.Text);
-
-                  //READ THE REGISTRATION FILE AND GET SERIAL NUMBER
-
-                  while ((line = file.ReadLine()) != null)
-                  {
-                      if (count == 1)
-                          data += line.Replace("Company Name: ", "") + ",";
-                      if (count == 2)
-                          data += line.Replace("Contact Name: ", "") + ",";
-                      if (count == 3)
-                          data += line.Replace("Email ID: ", "") + ",";
-                      if (count == 4)
-                          data += line.Replace("Phone number: ", "") + ",";
-                      if (count == 5)
-                          data += line.Replace("Address: ", "") + ",";
-                      if (count == 6)
-                          data += line.Replace("City: ", "") + ",";
-                      if (count == 7)
-                          data += line.Replace("State: ", "") + ",";
-                      if (count == 8)
-                          data += line.Replace("Zip Code: ", "") + ",";
-                      if (count == 9)
-                          data += line.Replace("Country: ", "") + ",";
-                      if (count == 10)
-                          data += line.Replace("Number of Users: ", "") + ",";
-                      if (count == 11)
-                          data += line.Replace("Product Name: ", "") + ",";
-                      if (count == 12)
-                          data += line.Replace("User Serial Number: ", "") + ",";
-
-                      count++;
-                  }
-
-                  file.Close();
-
-                  File.AppendAllText(path, data + "\n");
-              }
-          }*/
+        //SERIAL KEY ENCRYPTION
         public string Encryption(string serialnumber)
         {
             string encypstr = "";
@@ -424,7 +340,7 @@ namespace RegistrationManager
             return encypstr;
         }
 
-
+        //SERIAL KEY DECRYPTION
         public string Decryption(string serialnumber)
         {
             string decryptstr = "", str = "";

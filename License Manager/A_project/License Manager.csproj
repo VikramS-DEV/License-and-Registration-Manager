@@ -8,6 +8,7 @@
     <RootNamespace>License_Manager</RootNamespace>
     <StartupObject></StartupObject>
     <ApplicationIcon>license-icon.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>

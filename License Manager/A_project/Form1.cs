@@ -22,17 +22,6 @@ namespace License_Manager
         {
             InitializeComponent();
 
-            CompanyName.Text = "Company name";
-            ContactName.Text = "Vikram";
-            EmailId.Text = "vikrambest1@gmail.com";
-            PhoneNumber.Text = "9112324756";
-            Address.Text = "Pune";
-            City.Text = "Pune";
-            State.Text = "MH";
-            ZipCode.Text = "38";
-            Country.Text = "Ind";
-            numberofusers.Text = "1";
-            ProductName.Text = "product1"; 
         }
         string global = "";
 
@@ -137,7 +126,7 @@ namespace License_Manager
                 string SerialNumber = Identifier("Win32_DiskDrive", "SerialNumber");
                 SerialNumber = SerialNumber.Replace(" ", "");
                 string EncrptedID = Encryption(mac+SerialNumber);
-                
+                DateTime today = DateTime.Today;
 
                 string[] lines =
                       {
@@ -152,7 +141,8 @@ namespace License_Manager
                          "Country: "+Country.Text,
                          "Number of Users: "+numberofusers.Text,
                          "Product Name: "+ProductName.Text,
-                         "User Serial Number: "+EncrptedID
+                         "User Serial Number: "+EncrptedID,
+                         "Date: "+ today.ToString("dd/MM/yyyy")
                        };
                
                 File.WriteAllLinesAsync(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"\\Registration.key", lines);
