@@ -170,14 +170,14 @@ namespace RegistrationManager
                 file.Close();
 
                 //INSRT DATA INTO EXCEL
-                String filename = path;
-                String connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=\"Excel 12.0 Xml;ReadOnly=False;HDR=YES;\"";
-                String Command = "insert into [Sheet1$](Company_Name,Contact_Name,Email_ID,Phone_Number,Address,City,State,Zip_Code,Country,Number_of_Users,Product_Name,User_Serial_Number,Install_Date,Validity_Days) values('" + data[0] + "','" + data[1] + "','" + data[2] + "','" + data[3] + "','" + data[4] + "','" + data[5] + "','" + data[6] + "','" + data[7] + "','" + data[8] + "','" + data[9] + "','" + data[10] + "','" + data[11] + "','" + data[12] + "','" + data[13] +"')";
-                OleDbConnection con = new OleDbConnection(connection);
-                con.Open();
-                OleDbCommand cmd = new OleDbCommand(Command, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
+                  String filename = path;
+                  String connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=\"Excel 12.0 Xml;ReadOnly=False;HDR=YES;\"";
+                  String Command = "insert into [Sheet1$](Company_Name,Contact_Name,Email_ID,Phone_Number,Address,City,State,Zip_Code,Country,Number_of_Users,Product_Name,User_Serial_Number,Install_Date,Validity_Days) values('" + data[0] + "','" + data[1] + "','" + data[2] + "','" + data[3] + "','" + data[4] + "','" + data[5] + "','" + data[6] + "','" + data[7] + "','" + data[8] + "','" + data[9] + "','" + data[10] + "','" + data[11] + "','" + data[12] + "','" + data[13] +"')";
+                  OleDbConnection con = new OleDbConnection(connection);
+                  con.Open();
+                  OleDbCommand cmd = new OleDbCommand(Command, con);
+                  cmd.ExecuteNonQuery();
+                  con.Close();
 
             }
             else
@@ -334,6 +334,10 @@ namespace RegistrationManager
                 if (serialnumber[i] == 'Z')
                 {
                     encypstr += "90";
+                }
+                if (serialnumber[i] == '-')
+                {
+                    encypstr += "12";
                 }
             }
 
@@ -492,6 +496,10 @@ namespace RegistrationManager
                 if (str == "90")
                 {
                     decryptstr += "Z";
+                }
+                if (str == "12")
+                {
+                    decryptstr += "-";
                 }
 
             }

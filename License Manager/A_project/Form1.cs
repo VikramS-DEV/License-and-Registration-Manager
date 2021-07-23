@@ -352,6 +352,11 @@ namespace License_Manager
                 {
                     encypstr += "90";
                 }
+                if (serialnumber[i] == '-')
+                {
+                    encypstr += "12";
+                }
+
             }
 
             return encypstr;
@@ -510,6 +515,10 @@ namespace License_Manager
                 {
                     decryptstr += "Z";
                 }
+                if (str == "12")
+                {
+                    decryptstr += "-";
+                }
 
             }
 
@@ -575,14 +584,14 @@ namespace License_Manager
             SerialNumber = SerialNumber.Replace(" ", "");
 
             if (orignalkey == mac + SerialNumber)
-            { 
-            //------------REGISTRY----------------------------
-            int period = Convert.ToInt32(validdays); // trial period
-            string keyName = "Software\\GUID\\374DE290-123F-4565-9164-39C4925E467B";
-            long ticks = DateTime.Today.Ticks;
+            {
+                //------------REGISTRY----------------------------
+                int period = Convert.ToInt32(validdays); // trial period
+                string keyName = "Software\\GUID\\374DE290-123F-4565-9164-39C4925E467B";
+                long ticks = DateTime.Today.Ticks;
 
-            RegistryKey rootKey = Registry.CurrentUser;
-            RegistryKey regKey = rootKey.OpenSubKey(keyName);
+                RegistryKey rootKey = Registry.CurrentUser;
+                RegistryKey regKey = rootKey.OpenSubKey(keyName);
 
                 if (regKey == null)
                 {
@@ -596,11 +605,13 @@ namespace License_Manager
                     regKey.Close();
                 }
                 else
-                regKey.Close();
+                    regKey.Close();
                 //------------------------------------------
                 MessageBox.Show("Successfully Registered!");
 
-           }
+            }
+            else
+                MessageBox.Show("Invalid or Expired License file.Registeration Unsucessfull!");
         }
         //CODES
         /*
@@ -609,7 +620,7 @@ namespace License_Manager
          * 3   DT             C 61              M  67             X  30
          * 4   RG             D 23              N  29             Y  60  
          * 5   LK             E 98              O  91             Z  90 
-         * 6   MN             F 13              P  17 
+         * 6   MN             F 13              P  17             -  12
          * 7   PO             G 08              Q  03
          * 8   SZ             H 77              R  72
          *                                      S  11 

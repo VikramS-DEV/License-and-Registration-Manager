@@ -19,7 +19,6 @@ E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\Dem
 E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\Release\netcoreapp3.1\DemoApp.runtimeconfig.dev.json
 E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\Release\netcoreapp3.1\DemoApp.dll
 E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\bin\Release\netcoreapp3.1\DemoApp.pdb
-E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.csprojAssemblyReference.cache
 E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.Form1.resources
 E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.csproj.GenerateResource.cache
 E:\FYMSC\project\Project Code\License Manager & Registration\Working\DemoApp\DemoApp\obj\Release\netcoreapp3.1\DemoApp.AssemblyInfoInputs.cache
